@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 22px;
+  font-size: 18px;
+
+  .header_loggin-buttons {
+    > button {
+      font-size: 18px;
+      box-shadow: none;
+      height: 50px;
+
+      &:first-child {
+        border: none;
+        margin-right: 2em;
+      }
+      &:last-child {
+        color: rgba(82, 196, 26, 1);
+        border-color: rgba(82, 196, 26, 1);
+      }
+    }
+  }
+}
